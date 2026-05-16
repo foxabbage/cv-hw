@@ -1,0 +1,8 @@
+torch
+torchvision
+numpy
+swanlab
+pillow
+ultralytics
+opencv-python
+timm

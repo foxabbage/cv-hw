@@ -1,0 +1,23 @@
+yolo train \
+  data=train.yaml \
+  model=yolov8s.pt \
+  epochs=100 \
+  imgsz=800 \
+  batch=16 \
+  workers=0 \
+  optimizer=AdamW \
+  lr0=0.001 \
+  lrf=0.01 \
+  weight_decay=0.0005 \
+  mosaic=0.0 \
+  mixup=0.0 \
+  copy_paste=0.0 \
+  hsv_h=0.015 \
+  hsv_s=0.7 \
+  hsv_v=0.4 \
+  degrees=0.0 \
+  translate=0.1 \
+  scale=0.5 \
+  patience=30 \
+  device=0 \
+  project=runs/visdrone_yolov8s
