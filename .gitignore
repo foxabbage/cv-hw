@@ -212,3 +212,13 @@ hw1/fashion/
 models/
 
 hw2/task3/data
+
+*.ply
+*.obj
+
+hw3/task1/multi/
+hw3/task1/pic23d/
+hw3/task1/text23d/
+
+hw3/task2/splitABC
+hw3/task2/splitB
